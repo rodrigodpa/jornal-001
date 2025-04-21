@@ -1,0 +1,72 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 20px;
+    padding-bottom: 80px; /* Garante que o rodapé não sobreponha a matéria */
+}
+
+article h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+article h3 {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 10px;
+}
+
+article p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Corrige a sobreposição */
+    bottom: 0;
+    width: 100%;
+}
